@@ -1,0 +1,30 @@
+
+
+mapledemo := proc()
+    a := 0;
+    b := 1/1000;
+
+    print(a - 0);
+
+    for i from 0 to 999 do
+        a := a + b;
+    end do;
+    print(a - 1);
+
+    a := 0;
+    for i from 0 to 9999 do
+        a := a + b;
+    end do;
+    print(a - 10);
+
+    print(sum(1/1000, k = 0..999) - 1);
+    print(sum(1/1000, k = 0..9999) - 10);
+
+    c := sqrt(2019000000);
+    d := sqrt(2018000000);
+    res1 := c - d;
+    res2 := 1/(c + d);
+    print(res1);
+    print(res2);
+end proc;
+

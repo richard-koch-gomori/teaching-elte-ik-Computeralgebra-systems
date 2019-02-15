@@ -1,0 +1,16 @@
+Komputeralgebra rendszerek 1. gyakorlat
+
+
+1. Adjuk össze numerikusan az 1/1000 számot 1000-szer illetve 10000-szer, majd vizsgáljuk az eredmény eltérését 1-tõl illetve 10-tõl. Mi okozza az eltérést? Végezzük el ugyanezt a mûveletsort szimbolikus számításokkal, hasonlítsuk össze az eredményeket.
+
+2. Tároljuk szimbolikus kifejezésként az f(x) := x^5 + 6x^2 - 10 függvényt, számoljuk ki az elsõ illetve második deriváltját, integráljuk x szerint.
+
+3. Tároljuk szimbolikus kifejezésként az f(y,z) := y^2 - cos(z) + exp(yz) + 10 függvényt. Számítsuk ki: df/dy (az f függvény y változó szerinti deriváltja), df/dz, df/dx, f(2,3), (df/dy)(1,-1), (df/dx)(1,100), y szerinti integrálja.
+
+4. Adjuk a következõ 2x3-as mátrixokat: [-1, 3, 5, 3, -5, 5], [-1, -1, -1, 2, 2, 2], tároljuk a D = [2, -1, 7, -2, 8, 2, -5, 2, 10] 3x3-as mátrixot és a v = [2, -1, 5] vektort. Számítsuk ki D inverzét és Dv szorzatot. Tároljuk a síkbeli forgatómátrixot, invertáljuk, helyettesítsünk a szögbe 210-et, számítsuk ki a determinánsát.
+
+
+Érdemes a munkakönyvtár mellé kicsomagolni a SymbolicCpp.zip fájlt (töröljük a könyvtárnévbõl a "-master"-t), fordítás: g++ symbolic.cpp -o symbolic.exe -I ../SymbolicCpp/headers/
+
+Bevezetõ dokumentáció a SymbolicC++-ról: https://github.com/richard-koch-gomori/SymbolicCpp/blob/master/doc/introsymb.pdf
+
