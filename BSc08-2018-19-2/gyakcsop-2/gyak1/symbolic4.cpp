@@ -47,6 +47,7 @@ int main()
 
     std::cout << "M = " << M << std::endl;
     std::cout << "M^-1 = " << M.inverse() << std::endl;
+    std::cout << "M when alpha=0 = " << M[alpha == 0] << std::endl;
     std::cout << "M when alpha=210 = " << M[alpha == 210] << std::endl;
     std::cout << "det(M) = " << M.determinant() << std::endl;
     std::cout << "det(M)(112) = " << M.determinant()[alpha == 112] << std::endl;

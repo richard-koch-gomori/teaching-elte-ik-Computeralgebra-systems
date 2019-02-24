@@ -1,0 +1,9 @@
+Komputeralgebra rendszerek 2. gyakorlat
+
+
+1. Tároljunk szimbolikusan a billentyûzetrõl beolvasott törtet, és írjuk ki a tört elõjelét.
+
+2. Valósítsuk meg az intervallumfelezés algoritmusát szimbolikus számításokkal.
+
+3. Hajtsuk végre szimbolikusan az M = [4/10, 1/10, 0; 1/10, 3/10, 2/10; 0, 1/10, 4/10] 3x3-as mátrixra és a c = [1/10, 5/10, 1/10] vektorra az x(k+1) = M*x(k) + c iterációt.
+

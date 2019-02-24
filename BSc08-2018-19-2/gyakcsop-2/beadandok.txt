@@ -1,0 +1,38 @@
+Komputeralgebra rendszerek gyakorlat beadandó feladatok
+
+
+A félév során 3 komputeralgebra rendszerben programozunk: SymbolicC++, Sage, Maple. Mindhárom rendszerhez lesznek beadandó feladatok.
+
+A beadandó feladatok pontértéke a feladat neve/sorszáma mellett olvasható. A gyakorlati jegy a beadandókból szerzett összpontszám alapján kerül megállapításra, ennek ponthatárai a követelményrendszerben található.
+
+Sage és Maple feladatokból tetszés szerint választott legalább 1 db-t mindenkinek be kell adnia, a többi feladat tetszés szerint választható. SymbolicC++-ból nincs minimum elvárás, tehát a tantárgy teljesíthetõ SymbolicC++ feladat elkészítése nélkül is.
+
+
+SymbolicC++ feladatok (opcionális)
+
+
+1. (3 pont)
+Írassa ki a képernyõre az f(x) := x^9 - 7x^8 + 23x^6 - 1/51x^5 + x^2 - 10x + 42356 polinom illetve a g(x) := 31x^13 - x*sin(x) - 11*cos(x) + 54*exp(x^3 - 17x + cos(x)) + 3441 függvény x szerinti elsõ 10 deriváltját.
+
+2. (4 pont)
+Tekintsük a f(x) := ln(x^57 - x^2 + 10025) - x*sin(x) + 1235 függvényt. Írassa ki a képernyõre a következõket: f x szerinti deriváltja, f x szerinti integrálja, f(24), f(-1). Helyettesítsen a derivált illetve integrálfüggvényekbe 145-t.
+
+3. (4 pont)
+Az f(x) := x^3 - x - 2 Rational<Verylong> együtthatós polinomra hajtsa végre a Szelõ-módszert szimbolikus számításokkal. Az (xn - xn_1) / (f(xn) - f(xn_1)) * f(xn) kifejezésre adjon meg hibakorlátot, elég jó gyök esetén termináljon a ciklus.
+
+4. (7 pont)
+Tároljon szimbolikusan egy 5*5-ös mátrixot, amelynek az i-edik sorában az fi függvény x szerinti elsõ 5 deriváltja áll, ahol f1(x) := x^4 - 76x^2; f2(x) := sin(x); f3(x) := 54x^15 - exp(x*cos(x)); f4(x) := x^2 - 7x + 1; f5(x) := exp(17x). Helyettesítsen a mátrixba x=45-öt, írassa ki a mátrix inverzét, determinánsát, helyettesítsen az inverzbe illetve a determinánsba x=87 illetve x=11 értékeket. Számítsa ki a transzponált mátrix x=38 helyettesítésének determinánsát.
+
+5. (7 pont)
+Írjon függvényt, amely egy Rational<Verylong> elemeket tartalmazó mátrixra visszaadja a mátrix L+D+U felbontását. Írjon fõprogramot, amely az A = [4, -1, 0; -1, 4, -1; 0, -1, 4] 3x3-as mátrix, b = [2, 6, 2] vektor esetén az Ax = b LER-re végrehajtja a Jacobi illetve a Gauss-Seidel iterációk elsõ néhány lépését (ez a lépésszám lehet egy beégetett konstans, a konvergenciát nem kell vizsgálni).
+
+Az 1-5 feladatok összes megoldása betudható egyetlen 25 pontos feladatnak.
+
+
+Sage feladatok
+[coming soon]
+
+
+Maple feladatok
+[coming soon]
+
