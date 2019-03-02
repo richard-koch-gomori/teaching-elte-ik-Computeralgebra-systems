@@ -6,6 +6,7 @@
 
 #include <iostream>
 #include "rational.h"
+#include "verylong.h"
 #include "symbolicc++.h"
 
 

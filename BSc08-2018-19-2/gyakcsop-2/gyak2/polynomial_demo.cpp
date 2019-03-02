@@ -5,6 +5,7 @@
 #include <iostream>
 #include "polynomial.h"
 #include "rational.h"
+#include "verylong.h"
 #include "symbolicc++.h"
 
 

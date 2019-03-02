@@ -3,7 +3,7 @@
 
 #include <iostream>
 #include <climits>
-#include "../SymbolicCpp/headers/symbolicc++.h"
+#include "symbolicc++.h"
 
 
 int main()
