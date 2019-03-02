@@ -9,9 +9,9 @@
 
 int sign(const Rational<Verylong>& rat)
 {
-    if (rat == Rational<Verylong> (0))
+    if (rat == Rational<Verylong>(0))
         return 0;
-    else if (rat > Rational<Verylong> (0))
+    else if (rat > Rational<Verylong>(0))
         return 1;
     else
         return -1;
