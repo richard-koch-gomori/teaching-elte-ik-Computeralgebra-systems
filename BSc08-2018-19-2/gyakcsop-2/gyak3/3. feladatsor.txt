@@ -1,0 +1,14 @@
+Komputeralgebra rendszerek 3. gyakorlat
+
+
+1. Számítsuk ki az 1000 faktoriálisát.
+2. Írassuk ki pi és e értékét 1000 tizedesjegy pontossággal.
+3. Addjuk meg a (3+2i)(5-3i) eredményét.
+4. Keressünk egy olyan számot, aminek szinusza 2.
+5. Írjuk fel a 5342634632512543646623001324 szám prímfelbontását.
+6. Számítsuk ki pi-ben a tizedespont utáni 2008. és 2017. jegy közötti számjegyek által meghatározott 10 jegyû számot.
+7. Bonstuk fel a zárójeleket a ((x+y+12)^2 + (x+y-11)^3)^10 kifejezésben.
+8. Alakítsuk szorzattá a a^3b+b^3c+c^3a-ab^3-bc^3-ca^3 kifejezést.
+9. Számítsuk ki a sum(1/n^4) n=1..infinity összeget szimbolikusan és numerikusan 20 tizedesjegyre is.
+10. Írassuk ki az elsõ 100 köbszámot.
+

@@ -13,7 +13,7 @@
 int main()
 {
     Rational<Verylong> x("x");
-    x = Rational<Verylong> (5);
+    x = Rational<Verylong>(5);
     std::cout << "x = " << x << std::endl;
     x = Rational<Verylong>(5, 1001);
     std::cout << "x = " << x << std::endl;
