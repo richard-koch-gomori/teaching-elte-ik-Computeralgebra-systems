@@ -1,0 +1,21 @@
+Komputeralgebra rendszerek 4. gyakorlat
+
+
+1. Számoljuk meg (ciklussal), hány ikerprím-pár van 10^4 és 10^5 között.
+
+2. Írjunk függvényt, mely egy bemenetként adott rendezett párokból (2-hosszú listák) álló listáról (relációról) megmondja hogy reflexív ill tranzitív-e.
+
+R = Set([[1,2], [1,3], [1,4], [1,5], [2,3], [2,4], [2,5], [3,4], [3,5], [4,5]])
+
+3. Rajzoljuk ki a következõ gráfot: V = {1, 2, 3, 4}, élei pedig E = {(1,1), (1,2), (1,3), (2,1), (2,2), (2,3), (3,1), (3,2), (3,4), (4,3), (4,4)}.
+
+4. Rajzoljuk ki a következõ gráfot: csúcsai az {1, 2, 3, 4, 5} kételemû részei, élek pedig azok közt a csúcsok közt mennek, melyeknek összegei relatív prímek.
+
+5. Rajzoljunk ellipszist, parabolát és hiperbolát!
+
+6. Készítsünk animációt, melyben az x^3 függvény ágai hozzásimulnak az y tengelyhez.
+
+7. Készítsünk animációt, melyben az egységkör mozog az origó középponttól a (10, 0) középpontig!
+
+8. Készítsünk animációt, melyben az egységkör mozog a köbgyökfüggvény görbéjén az [0;10] intervallumon.
+
