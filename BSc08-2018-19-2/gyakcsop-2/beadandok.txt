@@ -29,10 +29,31 @@ Tároljon szimbolikusan egy 5*5-ös mátrixot, amelynek az i-edik sorában az fi füg
 Az 1-5 feladatok összes megoldása betudható egyetlen 25 pontos feladatnak.
 
 
-Sage feladatok
-[coming soon]
+Sage/Maple feladatok
 
+Ahol a feladat nem rögzíti, azon feladat tetszõlegesen választva megoldható Sage-ben vagy Maple-ben.
 
-Maple feladatok
-[coming soon]
+FIBONACCI (25 pont) Legyen m egy 1-nél nagyobb egész. Könnyû matematikailag belátni, hogy ha a Fibonacci-számok sorozatát modulo m tekintjük, akkor a sorozat periodikus (elõbb-utóbb újra szerepel benne 0 és 1, aztán ismétlõdni kezdenek az értékek). Írjunk egy eljárást, melynek az egyetlen paramétere m, a kimeneti értéke pedig egy 2 hosszú lista: ennek elsõ eleme a periódus hossza, második eleme pedig egy lista a periódus elemeibõl. Például, ha az eljárás neve f, akkor az f(3) parancsra kapjuk azt válaszul, hogy [8, [0, 1, 1, 2, 0, 2, 2, 1]].
+
+TÁBLA (35 pont) Valaki felír 8 nemnegatív egész számot egy táblára, majd a kezünkbe ad egy papírt, melyen szintén egy nemnegatív egész szám szerepel. Ezután a következõ lépést tehetjük meg 7-szer: kiválasztunk a táblán aktuálisan szereplõ számokból kettõt, letöröljük õket, és felírjuk a különbségük abszolút értékét a táblára. A cél az, hogy amikor csak egy szám szerepel a táblán, akkor az megegyezzen a papíron szereplõvel. Kérdés, hogy ezt elérhetjük-e: írjunk ennek eldöntésére maple programot. A bemenet a táblára írt számok listájából és a célszámból áll, a kimenet pedig vagy az, hogy nincs megoldás (mondjuk legyen a visszatérési érték ilyenkor -1), vagy egy lehetséges lépéssorozat, amiket a letörölt számpárokkal adunk meg. Például, ha f az eljárás neve, akkor f([1, 2, 3, 4, 5, 6, 7, 8], 0) eredménye lehet mondjuk [[1, 2], [3, 4], [5, 6], [7, 8], [1, 1], [1, 1], [0, 0]], ha a cél pedig ugyanennél a táblánál 1 vagy 50, akkor nincs megoldás.
+
+VÉLETLEN (25 pont) Készítsünk véletelen 5x5-ös mátrixot, melynek az elemeit a [0,1] intervallumon egyenletes eloszlások szerint válasszuk ki függetlenül. Számítsuk ki a determinánsát és a legnagyobb abszolút értékû sajátérték abszolút értékét. Végezzünk 1000 ilyen kísérletet, és ábrázoljuk a determinánsra ill. sajátértékre kapott eredmények (tapasztalati) eloszlásfüggvényét.
+(Egy F eloszlásfüggvény x helyen felvett értéke azt mondja meg, hogy mekkora valószínûséggel lesz a vizsgált mennyiség x-nél nem nagyobb. Tehát ha pl. egy konkrét x értéknél az 1000 kísérletbõl 349 esetben kisebb-egyenlõ, 651 esetben nagyobb szám jött ki, akkor F(x) = 0,349.)
+
+VÉLETLEN GYÖK (25 pont)
+Legyen n rögzített pozitív egész. Készítsünk Maple munkalapot, mely egy n-edfokú polinom együtthatóit egymástól függetlenül választja meg a {-1, 0, 1} halmazból. Rajzoljuk ki a komplex számsíkon a gyökeit.
+
+OSZTÓ (15 pont) Készítsük el a Maple segítségével azt a 20 hosszú listát, melynek i-edik eleme egy kettõ hosszúságú lista: [i, f(i)], ahol f(i) az a legkisebb természetes szám, melynek i darab pozitív osztója van. A keresett lista tehát valahogy így kezdõdik: [[1, 1], [2, 2], [3, 4], [4,6],..]. (Mert pl. 6 a legkisebb pozitív egész, amelynek 4 osztója van.)
+
+(+15 pontért:) Készítsük el ennek a listának a 100 hosszú változatát (elvárás: a számolás fusson le 5 percen belül egy átlagos mai PC-n (ha jól írjuk meg, úgyis másodpercek alatt lefut, ha nem, évek alatt sem)).
+
+RELÁCIÓ (20 pont) Egy X halmazon értelmezett binér relációt formálisan X-beli rendezett párok halmazaként szoktunk definiálni. Írjunk eljárásokat, melyek egy ilyen formában adott relációról megmondják, hogy az reflexív, antiszimmetrikus ill. tranzitív-e (három külön eljárást). A bemenetük az X halmaz és a reláció. Tehát pl. isReflexive({1, 2, 3, 4}, {[1, 1], [2, 2], [3, 3], [4, 4]}) válasza legyen true,  isTransitive({1, 2, 3, 4}, {[1, 2], [2, 3], [1, 4], [2, 2]}) pedig false. (Itt nem elvárás a hatékonyság, tegyük fel, hogy legfeljebb 10 elemû X-re hívjuk meg.) (+10 pontért:) Írjunk programot, mely megszámolja, hogy egy 1, 2, 3, 4, illetve 5 elemû halmazon hány részbenrendezés adható meg (azaz olyan reláció, mely egyszerre reflexív, antiszimmetrikus és tranzitív).
+
+EKVIVALENCIAOSZTÁLY (20 pont) Készítsünk eljárást, melynek bemenete egy, az elõzõ feladat módján reprezentált ekvivalenciareláció, kimenete pedig az ekvivalenciaosztályok lisája (ellenõrizzük, hogy a reláció valóban ekvivalenciareláció-e).
+
+NORMALITÁS (20 pont) Készítsünk eljárást, melynek egy bemenõ paramétere van: egy n pozitív egész. A kimenet egy 10 hosszúságú lista legyen, melyben felsoroljuk, hogy a PI tizedesvesszõt követõ elsõ n jegye közül hány darab 0, 1, 2, stb. számjegy van.
+
+ARITMETIKAI (20 pont) Az aritmetikai deriváltat a következõ szabályokkal definiáljuk a természetes számokra: p' = 1 minden p prímszámra, és ha a, b természetes számok, akkor (ab)' = a'b + ab'. Így például 15' = 3'*5 + 3*5' = 8, illetve kiszámolható pl. 60'=92. Írjunk eljárást Maple-ben, mely az ifactors függvény kimenete alapján kiszámítja egy bemeneti érték aritmetikai deriváltját.
+
+további feladatok hamarosan . . . 
 
