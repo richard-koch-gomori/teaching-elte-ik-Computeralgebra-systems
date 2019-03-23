@@ -53,7 +53,7 @@ EKVIVALENCIAOSZTÁLY (20 pont) Készítsünk eljárást, melynek bemenete egy, az elõz
 
 NORMALITÁS (20 pont) Készítsünk eljárást, melynek egy bemenõ paramétere van: egy n pozitív egész. A kimenet egy 10 hosszúságú lista legyen, melyben felsoroljuk, hogy a PI tizedesvesszõt követõ elsõ n jegye közül hány darab 0, 1, 2, stb. számjegy van.
 
-ARITMETIKAI (20 pont) Az aritmetikai deriváltat a következõ szabályokkal definiáljuk a természetes számokra: p' = 1 minden p prímszámra, és ha a, b természetes számok, akkor (ab)' = a'b + ab'. Így például 15' = 3'*5 + 3*5' = 8, illetve kiszámolható pl. 60'=92. Írjunk eljárást Maple-ben, mely az ifactors függvény kimenete alapján kiszámítja egy bemeneti érték aritmetikai deriváltját.
+ARITMETIKAI (20 pont) Az aritmetikai deriváltat a következõ szabályokkal definiáljuk a természetes számokra: p' = 1 minden p prímszámra, és ha a, b természetes számok, akkor (a*b)' = a'*b + a*b'. Így például 15' = 3'*5 + 3*5' = 8, illetve kiszámolható pl. 60'=92. Írjunk eljárást Maple-ben, mely az ifactors függvény kimenete alapján kiszámítja egy bemeneti érték aritmetikai deriváltját.
 
 további feladatok hamarosan . . . 
 
