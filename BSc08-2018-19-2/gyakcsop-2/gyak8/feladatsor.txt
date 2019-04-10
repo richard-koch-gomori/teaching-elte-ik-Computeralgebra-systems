@@ -1,0 +1,20 @@
+Komputeralgebra rendszerek 8. gyakorlat
+
+Feladatok megoldókhoz
+
+1. Egy pontszerû test egyenes vonalú pályán mozog az s(t) = 15 - (5-t)(3-t) kitérési szabály szerint a 0 idõpillanattól egészen addig ameddig sebessége 0-ra nem csökken. Határozza meg, mennyi utat tesz meg ez idõ alatt.
+
+2. Készítsen Sage munkalapot, amely megoldja a következõ szélsõérték feladatot:
+Szeretnénk egy fémlemezbõl egy A cm^2 felületû (kérje be A értékét a billentyûzetrõl), felül nyitott dobozt hajtogatni. Hogyan válasszuk meg a doboz éleit, ha azt szeretnénk, hogy a doboz térfogata maximális legyen?
+
+3. Készítsen Sage munkalapot, amely megoldja a következõ szélsõérték feladatot:
+A T cm^2 területû (T értékét kérje be a billentyûzetrõl) téglalapok körül melyiknek minimális a kerülete?
+
+Feladatok gráfokhoz
+
+1. Rajzolja ki a következõ irányítatlan gráfot: 1: [0,1,2,5], 5: [2,3], 2: [3,0]
+2. Rajzolja ki a következõ gráfot: (2,2), (1,2), (1,3), (1,3), címkézze rendre az éleket: c, a, b, d karakterekkel.
+3. Rajzolja ki a következõ irányított gráfot: (1,2), (3,1), (1,4)
+4. Rajzolja ki a 16-pontú cycle graph-t illetve a Petersen gráfot. Adja meg a 16-pontú páros cycle graph felosztását.
+5. Tekintsük az 1. feladat gráfját. Adja meg a gráf fokszámsorozatát, a 0-ból 5-be menõ összes lehetséges utat. Rajzolja ki G egy Hamilton gráfját, adja meg a Hamilton gráf kromatikus számát.
+
