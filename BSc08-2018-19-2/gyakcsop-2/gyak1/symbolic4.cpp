@@ -2,7 +2,7 @@
 
 
 #include <iostream>
-#include "../SymbolicCpp/headers/symbolicc++.h"
+#include "symbolicc++.h"
 
 
 int main()
