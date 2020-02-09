@@ -19,8 +19,7 @@ int sign(const Rational<Verylong>& rat)
 }
 
 
-int bisection(const Polynomial<Rational<Verylong> >& f, const Rational<Verylong>& a, const Rational<Verylong>& b,
-    const Rational<Verylong>& epsilon, const int nmax, Rational<Verylong>& result)
+int bisection(const Polynomial<Rational<Verylong> >& f, const Rational<Verylong>& a, const Rational<Verylong>& b, const Rational<Verylong>& epsilon, const int nmax, Rational<Verylong>& result)
 {
     int n = 1;
     Rational<Verylong> fa(a);
